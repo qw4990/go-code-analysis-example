@@ -14,5 +14,7 @@ useGlobal() uses a global foo_client object to call Do(), where useLocal() creat
 The goal of "check.go" is to find the wrong using of foo_client in useLocal().
 
 #Output
+<pre>
 [Warn]: Use local foo client defined at ./test_code/main.go:25:2.
 [Warn]: Use local foo client defined at ./test_code/main.go:26:2.
+</pre>
